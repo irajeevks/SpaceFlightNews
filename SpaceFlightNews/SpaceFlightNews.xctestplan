@@ -1,0 +1,50 @@
+{
+  "configurations" : [
+    {
+      "id" : "F44C9E7F-C9F9-458D-9EB3-692AFAA79651",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SpaceFlightNews.xcodeproj",
+      "identifier" : "03200C2F2BE3D44C0063AF5F",
+      "name" : "SpaceFlightNews"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/SpaceFlight",
+        "identifier" : "AppTabsFeatureTests",
+        "name" : "AppTabsFeatureTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/SpaceFlight",
+        "identifier" : "ArticleNavigationFeatureTests",
+        "name" : "ArticleNavigationFeatureTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/SpaceFlight",
+        "identifier" : "ArticlesFeatureTests",
+        "name" : "ArticlesFeatureTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/SpaceFlight",
+        "identifier" : "FilterFeatureTests",
+        "name" : "FilterFeatureTests"
+      }
+    }
+  ],
+  "version" : 1
+}
